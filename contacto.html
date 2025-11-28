@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tu Marca de Café - Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contacto, pedidos especiales, consultas sobre café y propuestas comerciales.">
+    <link rel="stylesheet" href="style.css" /></head>
+<body>
+<div class="page-wrapper">
+
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="/fotos/taza_de_cafe-removebg-preview.png" alt="logo" style="width: 100px;">
+                </div>
+                <div class="brand-title">El Ladriyo Cafe</div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="learn.html">Aprendé</a>
+                <a href="shop.html">Catálogo</a>
+                <a href="b2b.html">Para negocios</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-kicker">Contacto</div>
+                <h1 class="section-title">Hablemos de café.</h1>
+                <p class="section-subtitle">
+                    Pedidos, dudas, propuestas, colaboraciones. Escribinos y vemos cómo podemos ayudarte.
+                </p>
+            </div>
+
+            <div class="columns-2">
+                <section>
+                    <p style="margin-bottom:0.8rem;">
+                        La forma más rápida de contactarnos es por WhatsApp. Te vamos a responder lo antes posible
+                        con la info que necesites.
+                    </p>
+                    <a class="btn btn-primary" href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Quiero%20hacer%20una%20consulta%20sobre%20caf%C3%A9." target="_blank" rel="noopener">
+                        Escribir por WhatsApp
+                    </a>
+                </section>
+
+                <aside>
+                    <div class="card">
+                        <h3 class="card-title">Otros datos</h3>
+                        <p class="card-text">
+                            Correo: <strong>tumarca@correo.com</strong><br />
+                            Instagram: <strong>@tu_marca_cafe</strong><br />
+                            Zona: <strong>Buenos Aires, Argentina</strong>
+                        </p>
+                        <p class="card-text">
+                            Si querés, también podés enviarnos un mail y te respondemos dentro de las próximas 24/48 horas.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Tu Marca Café.</div>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="learn.html">Aprendé</a>
+                <a href="shop.html">Catálogo</a>
+                <a href="b2b.html">Negocios</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Vengo%20de%20la%20p%C3%A1gina%20de%20Contacto." target="_blank" rel="noopener">
+            <div class="whatsapp-float-circle"></div>
+            WhatsApp
+        </a>
+    </div>
+</div>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

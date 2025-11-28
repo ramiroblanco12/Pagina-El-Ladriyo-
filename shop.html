@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tu Marca de Café - Catálogo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Catálogo de cafés tostados en micro-lotes. Elegí tu café ideal y hacé tu pedido por WhatsApp.">
+    <link rel="stylesheet" href="style.css" /></head>
+<body>
+<div class="page-wrapper">
+
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="/fotos/taza_de_cafe-removebg-preview.png" alt="logo" style="width: 100px;">
+                </div>
+                <div class="brand-title">El Ladriyo Cafe</div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="learn.html">Aprendé</a>
+                <a href="shop.html" class="active">Catálogo</a>
+                <a href="b2b.html">Para negocios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-kicker">Catálogo</div>
+                <h1 class="section-title">Elegí tu café. Lo demás lo hacemos juntos.</h1>
+                <p class="section-subtitle">
+                    Todos los precios son orientativos. Armamos el pedido por WhatsApp y te enviamos un link de pago por Mercado Pago.
+                </p>
+            </div>
+
+            <div class="product-grid">
+                <!-- Producto 1 -->
+                <article class="product-card">
+                    <div class="product-image" style="background-image:url('assets/img/cafe-1.jpg');"></div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span>Blend de la casa</span>
+                            <span class="product-price">$6.000 / 250g</span>
+                        </div>
+                        <p class="product-notes">
+                            Chocolate, nuez, cuerpo medio-alto. Ideal para moka y espresso casero.
+                        </p>
+                        <div class="product-actions">
+                            <a class="btn btn-primary" href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Quiero%20el%20Blend%20de%20la%20Casa%20en%20250g." target="_blank" rel="noopener">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-card">
+                    <div class="product-image" style="background-image:url('assets/img/cafe-2.jpg');"></div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span>Origen Colombia</span>
+                            <span class="product-price">$6.800 / 250g</span>
+                        </div>
+                        <p class="product-notes">
+                            Dulce, notas a caramelo y frutos rojos. Perfecto para filtro y prensa francesa.
+                        </p>
+                        <div class="product-actions">
+                            <a class="btn btn-primary" href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Quiero%20el%20Origen%20Colombia%20en%20250g." target="_blank" rel="noopener">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-card">
+                    <div class="product-image" style="background-image:url('assets/img/cafe-3.jpg');"></div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span>Origen Brasil</span>
+                            <span class="product-price">$6.200 / 250g</span>
+                        </div>
+                        <p class="product-notes">
+                            Chocolate con leche, avellana, baja acidez. Ideal para café con leche y máquinas automáticas.
+                        </p>
+                        <div class="product-actions">
+                            <a class="btn btn-primary" href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Quiero%20el%20Origen%20Brasil%20en%20250g." target="_blank" rel="noopener">
+                                Pedir por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="section-subtitle" style="margin-top:1.6rem;">
+                ¿No sabés qué elegir? Escribinos por WhatsApp y armamos tu pedido según cómo tomás café y qué equipo tenés.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Tu Marca Café.</div>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="learn.html">Aprendé</a>
+                <a href="b2b.html">Negocios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Vengo%20del%20cat%C3%A1logo%20y%20quiero%20hacer%20un%20pedido." target="_blank" rel="noopener">
+            <div class="whatsapp-float-circle"></div>
+            Pedir por WhatsApp
+        </a>
+    </div>
+</div>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

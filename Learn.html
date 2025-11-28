@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tu Marca de Café - Aprendé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guías simples para mejorar tu café en casa o en tu negocio. Métodos de preparación y tips sin caretaje.">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page-wrapper">
+
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="/fotos/taza_de_cafe-removebg-preview.png" alt="logo" style="width: 100px;">
+                </div>
+                <div class="brand-title">El Ladriyo Cafe</div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="learn.html" class="active">Aprendé</a>
+                <a href="shop.html">Catálogo</a>
+                <a href="b2b.html">Para negocios</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="learn-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-kicker">Aprendé</div>
+                <h1 class="section-title">Café sin caretaje. Explicado para gente real.</h1>
+                <p class="section-subtitle">
+                    No hace falta volverse loco: con algunos ajustes simples, tu café de todos los días puede
+                    subir varios niveles. Acá te explicamos lo que realmente importa.
+                </p>
+            </div>
+
+            <div class="learn-grid">
+                <section>
+                    <h2 class="section-title" style="font-size:1.2rem;margin-bottom:0.6rem;">Métodos de preparación</h2>
+                    <ul class="list">
+                        <li><span>V60 / Filtro:</span> taza limpia, aromas claros, ideal si te gusta algo más suave y aromático.</li>
+                        <li><span>Prensa francesa:</span> cuerpo intenso, textura más densa. Perfecta si te gusta sentir el café con peso.</li>
+                        <li><span>Moka / Cafetera italiana:</span> sabor fuerte, clásico y directo. El café de abuela con esteroides.</li>
+                        <li><span>Espresso casero:</span> shot concentrado, dulce y con crema. Requiere algo de práctica, pero vale la pena.</li>
+                    </ul>
+
+                    <h2 class="section-title" style="font-size:1.2rem;margin:1.4rem 0 0.6rem;">Cuatro cosas que cambian todo</h2>
+                    <ul class="list">
+                        <li><span>Molienda:</span> si está muy grueso, tu café sale aguado; si está muy fino, sale amargo. Cada método tiene su punto.</li>
+                        <li><span>Agua:</span> usá agua filtrada siempre que puedas. El café es +90% agua, se nota.</li>
+                        <li><span>Proporción:</span> para filtro, una guía simple: 1 gramo de café por 15 de agua (1:15).</li>
+                        <li><span>Frescura:</span> un café tostado hace poco y bien guardado sabe distinto. Mucho.</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <div class="card">
+                        <h3 class="card-title">Rueda de sabores, pero sin chamuyo raro</h3>
+                        <p class="card-text">
+                            Cuando hablamos de chocolate, frutos rojos o flores, no significa que le pongamos nada raro al café.
+                            El grano ya tiene esos perfiles y el tueste los resalta.
+                        </p>
+                        <p class="card-text">
+                            Lo importante es que encuentres lo que a vos te gusta: más dulce, más cítrico, más intenso, etc.
+                        </p>
+                        <p class="card-text">
+                            Si querés, te recomendamos nuestro café según el tipo de sabor que buscás.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Quiero%20que%20me%20recomienden%20un%20caf%C3%A9%20seg%C3%BAn%20mis%20gustos." target="_blank" rel="noopener">
+                            Pedí recomendación por WhatsApp
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Tu Marca Café.</div>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="shop.html">Catálogo</a>
+                <a href="b2b.html">Negocios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/TU_NUMERO_DE_WSP?text=Hola!%20Vengo%20desde%20la%20p%C3%A1gina%20de%20Aprend%C3%A9%20y%20quiero%20mejorar%20mi%20caf%C3%A9." target="_blank" rel="noopener">
+            <div class="whatsapp-float-circle"></div>
+            WhatsApp Café
+        </a>
+    </div>
+</div>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
